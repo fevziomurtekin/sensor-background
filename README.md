@@ -10,17 +10,17 @@ Animated background using the accelerometer sensor.
 
 Step 1. Add the JitPack repository to your build file
 
-allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	allprojects {
+			repositories {
+				...
+				maven { url 'https://jitpack.io' }
+			}
 
 Step 2. Add the dependency
 
-dependencies {
-	        implementation 'com.github.Omurtekinn:SensorBackground:0.1.0'
-	}
+	dependencies {
+			implementation 'com.github.Omurtekinn:SensorBackground:0.1.0'
+		}
 
 ## Use SensorBackground in Layout File Just Like ImageView
 
