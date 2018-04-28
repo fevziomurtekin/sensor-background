@@ -3,7 +3,7 @@ Animated background using the accelerometer sensor.
 
 ## ScreenShots
 
---
+<img src="gif/gif1.gif" width="270">
 
 
 ## Include SensorBackground to Your Project
@@ -35,9 +35,15 @@ Step 2. Add the dependency
 
 All the attributes can also be set in java code:
 
+Default attributes
+```
+	splash = false 
+	SensorDelayTime = 500
+	SplashDelayTime = 3000
+
 ```java
 sensorBackground.setSplash(true);
-sensorBackground.setSensorDelayTime(3000);
+sensorBackground.setSplashDelayTime(3000);
 sensorBackground.setSensorDelayTime(1000);
 
 ```
