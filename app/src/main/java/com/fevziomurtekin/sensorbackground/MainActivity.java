@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         sensorBackground.setSensorHelper(sensorHelper);
         sensorBackground.setSplash(true);
         sensorBackground.setSensorDelayTime(3000);
+        sensorBackground.setSensorDelayTime(1000);
         sensorBackground.setSensorScrollListener(new SensorBackground.OnSensorScrollListener() {
             @Override
             public void onScrolled(SensorBackground view, float offsetProgress) {
